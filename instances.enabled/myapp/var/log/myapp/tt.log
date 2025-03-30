@@ -21,3 +21,14 @@ started
 2025-03-30 03:51:35.540 [54537] main/105/-/box.load_cfg load_cfg.lua:942 I> set 'listen' configuration option to 3301
 2025-03-30 03:51:35.540 [54537] main/108/checkpoint_daemon gc.c:643 I> scheduled next checkpoint for Sun Mar 30 05:30:01 2025
 2025-03-30 03:51:35.540 [54537] main main.cc:1075 I> entering the event loop
+2025-03-30 05:46:58.082 [54537] snapshot/101/main memtx_engine.cc:1063 I> saving snapshot `/Users/alexeysharunov/Desktop/mm-vote-bot/instances.enabled/myapp/var/lib/myapp/00000000000000000019.snap.inprogress'
+2025-03-30 05:46:58.085 [54537] snapshot/101/main memtx_engine.cc:1165 I> done
+2025-03-30 05:46:58.086 [54537] main/108/checkpoint_daemon gc.c:643 I> scheduled next checkpoint for Sun Mar 30 06:30:01 2025
+2025-03-30 06:38:11.964 [54537] main/108/checkpoint_daemon gc.c:643 I> scheduled next checkpoint for Sun Mar 30 07:30:01 2025
+2025-03-30 07:32:21.929 [54537] main/108/checkpoint_daemon gc.c:643 I> scheduled next checkpoint for Sun Mar 30 08:30:01 2025
+2025-03-30 08:32:43.007 [54537] main/108/checkpoint_daemon gc.c:643 I> scheduled next checkpoint for Sun Mar 30 09:30:01 2025
+2025-03-30 09:34:19.996 [54537] main/108/checkpoint_daemon gc.c:643 I> scheduled next checkpoint for Sun Mar 30 10:30:01 2025
+2025-03-30 10:33:21.005 [54537] main/108/checkpoint_daemon gc.c:643 I> scheduled next checkpoint for Sun Mar 30 11:30:01 2025
+2025-03-30 11:39:09.019 [54537] main/108/checkpoint_daemon gc.c:643 I> scheduled next checkpoint for Sun Mar 30 12:30:01 2025
+2025-03-30 12:35:56.024 [54537] main/108/checkpoint_daemon gc.c:643 I> scheduled next checkpoint for Sun Mar 30 13:30:01 2025
+2025-03-30 13:37:30.031 [54537] main/108/checkpoint_daemon gc.c:643 I> scheduled next checkpoint for Sun Mar 30 14:30:01 2025

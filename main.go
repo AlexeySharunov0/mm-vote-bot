@@ -30,7 +30,7 @@ func connectToDB() (*tarantool.Connection, error) {
 		Pass: "anksoonamoon", // Указываем пароль для пользователя admin
 	}
 
-	// Подключение к серверу Tarantool с параметрами
+	// Подключение к серверу tarantool с параметрами
 	conn, err := tarantool.Connect("localhost:3301", opts)
 	if err != nil {
 		log.Printf("Ошибка подключения к базе данных: %v", err)
