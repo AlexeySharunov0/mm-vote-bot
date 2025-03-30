@@ -1,0 +1,23 @@
+Watchdog 2025/03/30 03:51:35 [INFO] Start
+started
+2025-03-30 03:51:35.518 [54537] main/105/- main.cc:498 I> Tarantool 3.3.1-0-g91caac3 Darwin-arm64-Release
+2025-03-30 03:51:35.518 [54537] main/105/- main.cc:500 I> log level 5 (INFO)
+2025-03-30 03:51:35.518 [54537] main/105/- gc.c:131 I> wal/engine cleanup is paused
+2025-03-30 03:51:35.518 [54537] main/105/- tuple.c:411 I> mapping 268435456 bytes for memtx tuple arena...
+2025-03-30 03:51:35.518 [54537] main/105/- memtx_engine.cc:1750 I> Actual slab_alloc_factor calculated on the basis of desired slab_alloc_factor = 1.044274
+2025-03-30 03:51:35.518 [54537] main/105/- tuple.c:411 I> mapping 134217728 bytes for vinyl tuple arena...
+2025-03-30 03:51:35.519 [54537] main/105/- box.cc:2274 I> update replication_synchro_quorum = 1
+2025-03-30 03:51:35.519 [54537] main/105/- box.cc:3329 I> The option replication_synchro_queue_max_size will actually take effect after the recovery is finished
+2025-03-30 03:51:35.519 [54537] main/105/- box.cc:5439 I> instance uuid 37636593-c220-4744-9db9-6bcfc6283c3e
+2025-03-30 03:51:35.520 [54537] main/105/- evio.c:269 I> tx_binary: bound to [::]:3301
+2025-03-30 03:51:35.520 [54537] main/105/- memtx_engine.cc:718 I> initializing an empty data directory
+2025-03-30 03:51:35.539 [54537] main/105/- replication.cc:564 I> assigned id 1 to replica 37636593-c220-4744-9db9-6bcfc6283c3e
+2025-03-30 03:51:35.539 [54537] main/105/- box.cc:2274 I> update replication_synchro_quorum = 1
+2025-03-30 03:51:35.539 [54537] main/105/- alter.cc:4163 I> replicaset uuid 7f26aac8-2b26-4889-b1f2-6e81e095a62d
+2025-03-30 03:51:35.539 [54537] snapshot/101/main memtx_engine.cc:1063 I> saving snapshot `/Users/alexeysharunov/Desktop/mm-vote-bot/instances.enabled/myapp/var/lib/myapp/00000000000000000000.snap.inprogress'
+2025-03-30 03:51:35.540 [54537] snapshot/101/main memtx_engine.cc:1165 I> done
+2025-03-30 03:51:35.540 [54537] main/105/- box.cc:5936 I> ready to accept requests
+2025-03-30 03:51:35.540 [54537] main/107/gc gc.c:319 I> wal/engine cleanup is resumed
+2025-03-30 03:51:35.540 [54537] main/105/-/box.load_cfg load_cfg.lua:942 I> set 'listen' configuration option to 3301
+2025-03-30 03:51:35.540 [54537] main/108/checkpoint_daemon gc.c:643 I> scheduled next checkpoint for Sun Mar 30 05:30:01 2025
+2025-03-30 03:51:35.540 [54537] main main.cc:1075 I> entering the event loop
