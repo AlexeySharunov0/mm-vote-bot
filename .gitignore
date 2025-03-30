@@ -1,0 +1,9 @@
+# Исключаем все файлы, которые не нужны в контейнере
+.git
+.dockerignore
+README.md
+go.mod
+go.sum
+logs/
+build/
+dist/
