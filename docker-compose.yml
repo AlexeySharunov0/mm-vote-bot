@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  tarantool:
+    image: tarantool/tarantool:2.10
+    container_name: tarantool
+    ports:
+      - "3301:3301"
+    volumes:
+      - ./tarantool/init.lua:/opt/tarantool/init.lua
+    command: tarantool /opt/tarantool/init.lua
+    restart: always
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: go-app
+    depends_on:
+      - tarantool
+    environment:
+      - TARANTOOL_HOST=tarantool
+      - TARANTOOL_PORT=3301
+      - TARANTOOL_USER=admin
+      - TARANTOOL_PASSWORD=anksoonamoon
+    restart: always
